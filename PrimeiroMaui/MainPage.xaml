@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimeiroMaui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Image
+                Source="gatinho.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="imagem gatinho matematico"/>
+
+            <Label Text="Equação de 2° grau"
+                   FontSize="Title"/>
+
+            <Label Text="Coeficiente A:"/>
+            <Entry x:Name="txt_CoefA"/>
+            <Label Text="Coeficiente B:"/>
+            <Entry x:Name="txt_CoefB"/>
+            <Label Text="Coeficiente C:"/>
+            <Entry x:Name="txt_CoefC"/>
+
+            <Button Text="Calcular" Clicked="Button_Clicked_1" BackgroundColor="Orange"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
