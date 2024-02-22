@@ -12,7 +12,7 @@
                 Source="gatinho.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
-                SemanticProperties.Description="imagem gatinho matematico"/>
+                SemanticProperties.Description="gatinho matematico"/>
 
             <Label Text="Equação de 2° grau"
                    FontSize="Title"/>
